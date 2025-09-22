@@ -4,7 +4,7 @@
     :style="{ backgroundImage: `url(${backgroundImage})` }"
   >
     <div
-      class="max-w-3xl text-center p-10 bg-white bg-opacity-80 rounded-2xl shadow-2xl space-y-6"
+      class="mx-4 md:mx-auto my-4 md:my-10 max-w-full md:max-w-3xl text-center p-4 sm:p-6 md:p-10 bg-white bg-opacity-80 rounded-2xl shadow-2xl space-y-4 sm:space-y-6"
     >
       <p class="text-2xl italic text-gray-800">
         Escape the noise of everyday life and find your sanctuary at
@@ -43,7 +43,7 @@ defineProps({
   backgroundImage: {
     type: String,
     default:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "/images/featured-image-bg.jpg",
   },
 })
 </script>

@@ -32,22 +32,22 @@
 <script setup>
 const testimonials = [
   {
-    image: "https://i.pravatar.cc/100?img=1",
+    image: "/images/testimonial_01.png",
     message:
       "EdsenVillas was the perfect escape. The rooms were spotless and the view of the gardens was breathtaking!",
-    name: "Sarah L.",
+    name: "Alex T.",
   },
   {
-    image: "https://i.pravatar.cc/100?img=2",
+      image: "/images/testimonial_02.png",
     message:
       "I loved the peaceful atmosphere. Every detail was designed for comfort and relaxation. Highly recommend!",
-    name: "Michael R.",
+    name: "Yeng C",
   },
   {
-    image: "https://i.pravatar.cc/100?img=3",
+     image: "/images/testimonial_03.png",
     message:
       "A true hidden gem! The staff made me feel at home, and the villa itself was simply stunning.",
-    name: "Anna P.",
+    name: "Joel D",
   },
 ]
 </script>

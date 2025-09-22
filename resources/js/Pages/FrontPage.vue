@@ -14,9 +14,10 @@ import RoomSlider from "@/Components/RoomSlider.vue";
 
 
 const images = [
-  "/images/img_nature_wide.jpg",
-  "/images/img_snow_wide.jpg",
-  "/images/img_mountains_wide.jpg",
+  "/images/f1.png",
+  "/images/f2.png",
+  "/images/f3.png",
+  "/images/f4.png",
 ];
 
 
@@ -169,6 +170,7 @@ onMounted(() => {
           </ScrollAnimate>  
           <ScrollAnimate>
             <div class="flex flex-col items-center mb-5">
+            <a href="https://www.facebook.com/nheza.villafuerte">
               <svg style="border-radius: 23px;
               border: 4px solid #eee;
               width: 43px;
@@ -177,6 +179,7 @@ onMounted(() => {
                 <path d="M-260.9,327.8c0-10.3,9.2-14,19.5-14c10.3,0,21.3,3.2,21.3,3.2l6.6-39.2c0,0-14-4.8-47.4-4.8c-20.5,0-32.4,7.8-41.1,19.3
                 c-8.2,10.9-8.5,28.4-8.5,39.7v25.7H-337V396h26.5v133h49.6V396h39.3l2.9-38.3h-42.2V327.8z"/>
               </svg>
+            </a>
             </div>
          
             <nav class="mb-1 -mx-3 flex flex-1 justify-center">                       
