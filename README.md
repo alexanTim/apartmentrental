@@ -6,9 +6,10 @@ This system is about apartment rental, you can do the following to install it lo
 # to install vendor
 - composer install
 
-# the tables will created
+# the tables will be created
 - php artisan migrate
 
+# install modules
 - npm install
 
 # to serve 
